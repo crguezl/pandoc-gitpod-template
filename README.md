@@ -1,3 +1,8 @@
+# GitPod
+
+* To visualize the pdf we need the VSCode Office Viewer package installed
+* Also be sure to download the artifact using `gh run download <run-id>. We can get the `id`with `gh run list`
+
 pandoc-thesis-template
 ======================
 
