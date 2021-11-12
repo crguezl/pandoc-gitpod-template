@@ -1,6 +1,6 @@
 # Introduction
 
-## Simple figure
+## Figura Sencilla / Simple figure
 
 Here is a simple figure. Aquí tenemos una sencilla figura.
 
