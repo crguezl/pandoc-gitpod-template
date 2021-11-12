@@ -2,7 +2,7 @@
 
 ## Simple figure
 
-Here is a simple figure.
+Here is a simple figure. Aquí tenemos una sencilla figura.
 
 ![Github's famous 'Octocat'!](03_figures/introduction/octocat.png)
 
