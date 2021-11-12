@@ -43,6 +43,12 @@ foreach($cars as $car){
 
 You need to insert empty lines at the end of each section.....  
 
+
+## Mathematics
+
+$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$
+
+
 ## Other great books
 
 There are some great books out here, e.g. see [@hitch_hikers_guide].
