@@ -1,4 +1,5 @@
 -C 
+-s
 --pdf-engine=pdflatex 
 -H 91_preable/preamble.tex 
 -V fontsize=10pt 
@@ -6,7 +7,7 @@
 -V papersize:a4paper 
 -V classoption:openright 
 --number-sections 
---top-level-division=part
+--top-level-division=chapter
 --bibliography=05_references/references.bib 
 --csl=harvard-limerick.csl 
 01_front_material/1_title.md 
@@ -22,4 +23,4 @@
 04_appendices/B_questionnaire.md 
 04_appendices/C_webapplication.md  
 05_references/references.md 
--o _THESIS.pdf
+-o _THESIS.tex

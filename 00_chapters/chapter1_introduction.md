@@ -117,3 +117,15 @@ If you don't want to edit tables manually in MarkDown, a great free online tool 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzgyMjIxMjIzXX0=
 -->
+
+# A chapter in the same file
+
+## Mas Material
+ 
+Citando a Smith's [-@smith2018] de nuevo.
+
+### Subsection of a section
+
+Aquí va una subsección
+
+
