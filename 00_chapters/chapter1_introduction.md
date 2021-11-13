@@ -21,17 +21,19 @@ Here is a bulleted list using minus-signs before each item:
 Here is a numbered list using `1. ` before each item:
 
 1. blue
-1. green
-1. yellow
-1. gold
+2. green
+3. yellow
+4. gold
 
 here is some code inline using backticks:. A good loop is `foreach`
 
 here are some lines of code using indentation
 
-	foreach($cars as $car){
-		print $car->getRegistration();
-	}
+```
+foreach($cars as $car){
+	print $car->getRegistration();
+}
+```
 
 To get better syntax highlighing you can triple backtick code blocks and state the language:
 
@@ -41,13 +43,49 @@ foreach($cars as $car){
 }
 ```
 
-You need to insert empty lines at the end of each section.....  
-
+You need to insert empty lines at the end of each section.....
 
 ## Mathematics
 
-$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$
 
+```
+Now you can use LaTex formulas everywhere in your website:
+
+```
+
+You can insert some formula 
+
+$$
+f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi
+$$
+
+ in the middle of a sentence.
+
+
+You can also put large formulas in their own paragraph.
+
+$$
+f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi
+$$
+
+$$
+mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}
+$$
+
+```
+
+You can insert some formula $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$ in the middle of a sentence.
+
+You can also put large formulas in their own paragraph.
+
+$$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
+
+$$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$
+
+
+```
+
+$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$
 
 ## Other great books
 
@@ -62,23 +100,25 @@ Another sentence typed here.
 Below see Table \ref{hugh_et_al}, for a list tech things, and in the Markdown source how to create such a table.
 
 <!-- ***************************************************** -->
+
 <!-- ****************** start of table ******************* -->
+
 <!-- ***************************************************** -->
+
 Table: Description of some computing techy things. \label{hugh_et_al}
 
+| Item                 | Description                             | hrs | rate |
+| -------------------- | --------------------------------------- | --- | ---- |
+| Hugo Installation    | Static HTML site generator              | 2   | 180  |
+| Database Integration | Testing of data structures              | 2   | 180  |
+| SCORM integration    | Connecting to Moodle                    | 6   | 180  |
+| Design and CSS       | Design of web page front-end            | 4   | 180  |
+| Testing and Tuning   | Ensuring that components are functional | 3   | 180  |
+| Subtotals            |                                         |     |      |
+| Discount             |                                         |     |      |
+| Total (ex. GST)      |                                         |     |      |
+| Total (inc. GST)     |                                         |     |      |
 
-Item                 | Description                              | hrs   | rate
----------------------|------------------------------------------|-------|----
-Hugo Installation    | Static HTML site generator               | 2     | 180
-Database Integration | Testing of data structures               | 2     | 180
-SCORM integration    | Connecting to Moodle                     | 6     | 180
-Design and CSS       | Design of web page front-end             | 4     | 180
-Testing and Tuning   | Ensuring that components are functional  | 3     | 180
-                     | Subtotals                                |       |
-                     | Discount                                 |       |    
-                     | Total (ex. GST)                          |       |
-                     | Total (inc. GST)                         |       |
- 
 <!-- ***************************************************** -->
 
 See Figure \ref{md_tables} for how to create tables using MarkDown and a little bit of LaTeX.
@@ -92,7 +132,6 @@ If you don't want to edit tables manually in MarkDown, a great free online tool 
 - [https://tableconvert.com/?import=example](https://tableconvert.com/?import=example)
 
 ![Online table Markdown (and LaTeX) creator. \label{table_convert}](03_figures/introduction/table_convert.png){ width=75% }
-
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzgyMjIxMjIzXX0=
