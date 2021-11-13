@@ -1,9 +1,17 @@
-# GitPod
+# GitPod Configuration
 
 * To visualize the pdf we need the VSCode Office Viewer package installed. 
   However I'm running into troubles with the lnaguage that switches to some sort of oriental language
-* If using the GH action, be sure to download the artifact using `gh run download <run-id>. We can get the `id` with `gh run list`
 
+# About the GitHub Action
+
+* If using the GH action, be sure to download the artifact using `gh run download <run-id>. We can get the `id` with `gh run list`
+* The file break____ is used inside the GH action. Do not remove it!
+
+# References
+
+* [Pandoc Manual at UV](https://www.uv.es/wikibase/doc/cas/pandoc_manual_2.7.3.wiki?35)
+  
 pandoc-thesis-template
 ======================
 
